@@ -1,3 +1,78 @@
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
-};
+}
+
+header {
+    background-color: rgb(53, 52, 52);
+    color: aqua;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.name {
+    font-size: 50px;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+}
+
+a,
+.nav-links,
+.avatar {
+    margin-right: 1rem;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    color: aquamarine;
+    float: right;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+main {}
+
+.subtitle-container {
+    background-image: url(./assets/images/banner.jpg);
+    height: 10rem;
+}
+
+.p1 {
+    float: right;
+    color: rgb(225, 230, 230);
+    padding: 5rem;
+    font-weight: bolder;
+}
+section .about-me {
+    border-right: 5px solid black;
+}
+ .sidebar-container {
+
+}
+    .p2 {
+    float: right;
+}
+
+
+
+
+
+
+
+
+.footer-container {
+    float: right;
+}

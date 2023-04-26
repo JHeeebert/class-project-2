@@ -1,107 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joshua Hebert Portfolio</title>
-    <link rel="stylesheet" href="/reset.css" media="screen" />
-    <link rel="stylesheet" href="/style.css" media="screen" />
-  </head>
-  <body>
-    <header>
-      <img class="header-img" src="/assets/images/avatar.jpg" alt="Joshua Hebert" />
-      <h1 class="header-name">Joshua-Hebert</h1>
-    </header>
-    <nav>
-      <ul class="top-list">
-        <li>
-          <a class="aboutme-nav" href="#" onclick="scrollToSection(aboutme)">About Me</a>
-        </li>
 
-        <li>
-          <a class="work-nav" href="#" onclick="scrollToSection(work)">Work</a>
-        </li>
-        <li>
-          <a class="resume-nav" href="#" onclick="scrollToSection(resume)">Resume</a>
-        </li>
-        <li>
-          <a class="contact-nav" href="#" onclick="scrollToSection(footer)">Keep in Touch</a>  
-        </li>
-      </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joshua Hebert Portfolio</title>
+  <link rel="stylesheet" href="reset.css" media="screen" />
+  <link rel="stylesheet" href="style.css" media="screen" />
+</head>
+
+<body>
+  <header>
+    <section class="header-container">
+    <h1 class="name">Joshua Hebert</h1>
+    <nav class="nav-links">
+      <a href="#about-me" onclick="scrollToSection(aboutme)">About Me</a>
+      <a href="#work" onclick="scrollToSection(work)">Work</a>
+      <a href="#resume" onclick="scrollToSection(resume)">Resume</a>
+      <a href="#contact" onclick="scrollToSection(contact)">Keep in Touch</a>
+      <img class="avatar" src="./assets/images/Gengar10.jpg" alt="Joshua Hebert">
     </nav>
-    <section class="subhead">
-      <img
-        class="subtitle-image"
-        src="###"
-        alt="This is a placeholder image for the header section"
-      />
-      <h3 class="subtitle">From The Creative Mind of Joshua Hebert</h3>
     </section>
-    <section class="aboutme">
-      <h1 class="side-1">About Me</h1>
-      <p class="p1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam maxime
-        minus, ipsum at eos quod sequi velit laborum accusantium, dolorum
-        expedita quasi, ea laudantium temporibus reprehenderit mollitia libero
-        soluta atque.
-      </p>
+  </header>
+  <main>
+    <section class="subtitle-container">
+      <p class="p1">From the creative mind of Joshua Hebert</p>
     </section>
-    <section class="work">
-      <h1 class="side-2">Work</h1>
-    </section>
-    <section class="resume">
-      <h1 class="side-3">Resume</h1>
-    </section>
-    <section class="footer">
-      <h1 class="side-4">Keep in Touch</h1>
-      <nav>
-        <ul class="bottom-list">
-          <li>
-            <a
-              class="phone"
-              href="tel:+4072425569"
-              alt="Clickable Link to Phone Number"
-              >407-242-5569</a
-            >
-          </li>
-          <li>
-            <a
-              class="email"
-              href="mailto:jhebertcocktails@gmail.com"
-              alt="Clickable Link to Email"
-              >Email Me</a
-            >
-          </li>
-          <li>
-            <a
-              class="github"
-              href="https://github.com/JHeeebert"
-              alt="Clickable Link to GitHub Profile"
-              >GitHub</a
-            >
-          </li>
-          <li>
-            <a
-              class="twitter"
-              href="https://twitter.com/JHeeebert"
-              alt="Clickable Link to Twitter"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a
-              class="linkedin"
-              href="https://t.co/QgTjyKn73u"
-              alt="Clickable Link to linkedin Profile"
-              >Linkedin</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </section>
+    <section class="sidebar-container">
+      <h1>About Me</h1>
+      <h1>Work</h1>
+      <h1>Resume</h1>
+      <h1>Keep in Touch</h1>  
+     </section>
+      <p class="p2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+        maxime minus, ipsum at eos quod sequi velit laborum accusantium,
+        dolorum expedita quasi, ea laudantium temporibus reprehenderit
+        mollitia libero soluta atque.
+    <section class="work"></section>
+
+ 
+    <section class="resume"></section>
+
+    <section class="contact"></section>
     <footer>
-        🖤 
+    <nav class="footer-container">
+            <a href="tel:+4072425569" alt="Clickable Link to Phone Number">407-242-5569</a>
+            <a href="mailto:jhebertcocktails@gmail.com" alt="Clickable Link to Email">Email Me</a>
+            <a href="https://github.com/JHeeebert" alt="Clickable Link to GitHub Profile">GitHub</a>
+            <a href="https://twitter.com/JHeeebert" alt="Clickable Link to Twitter">Twitter</a>
+            <a href="https://t.co/QgTjyKn73u" alt="Clickable Link to linkedin Profile">Linkedin</a>      
+    </nav>
     </footer>
-  </body>
+</body>
+
 </html>
