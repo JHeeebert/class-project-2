@@ -1,98 +1,207 @@
 * {
-    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
-
 }
 
 header {
     background-color: rgb(48, 48, 51);
     color: aqua;
+
 }
 
+/* Container for h1.name and the top nav links */
 .header-container {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    padding: 2rem;
+    color: aqua;
+
 }
 
+/*h1 element for name in left corner of page*/
 .name {
     font-size: 50px;
-    margin: 0;
     background-image: url(./assets/images/banner-2.jpg);
 }
 
+/*manges display properties of all elements in header container*/
 a,
 .nav-links,
 .avatar {
     display: flex;
-    margin-right: 1rem;
+    margin-right: 1.75rem;
+    text-align: center;
     text-transform: capitalize;
     text-decoration: underline double;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
     color: aquamarine;
-    float: right;
 }
 
+/*creates hover effect over top links */
+.top-links:hover {
+    color: rgb(173, 12, 12);
+}
+
+/*manges avatar in right corner of page */
 .avatar {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
+    height: 80px;
+    width: 15%;
+    border-radius: 60%;
 }
 
+/* manages container were subtitle lives */
 .subtitle-container {
     display: block;
     background-image: url(./assets/images/banner.jpg);
-    height: 12rem;
+    height: 13rem;
 }
 
+/*manges font and float of paragrah 1 and also creats own box with individual background*/
 .p1 {
-    width: 20%;
     padding: 10px;
-    margin: 50px;
+    margin: 75px;
     float: right;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bolder;
     color: rgb(185, 209, 209);
     background-image: url(./assets/images/banner-2.jpg);
 }
 
+/*handles margin and padding for entire main content*/
 main {
-    width: 100%;
-    margin: 20px;
+    margin: auto;
+    padding: 20px;
 }
 
-section,
-footer,
+/*controls side h1 tags and aligns them on left of page with right border*/
+.side-head {
+    display: inline-block;
+    font-size: 60px;
+    border-right: 10px solid rgb(2, 33, 121);
+    padding-right: 30px;
+}
+
+/*gives space between about me and the about me p tag*/
 .about-me {
     display: flex;
     justify-content: space-between;
 }
 
-.about-head,
-.work-head,
-.footer-head {
-    font-size: 60px;
-
-}
-
+/*controls about me paragraph*/
 .p-about {
-    max-width: 50%;
-    font-size: 18px;
+    max-width: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
 }
 
-section,
-.work {}
+/*sets grid display for work links*/
+.work-container-2 {
+    display: grid;
+}
 
-footer {}
+/*controls main work showcase link aka "project 1"*/
+.main-showcase {
+    height: 500px;
+    width: 40%;
+    margin: auto;
+    background-image: url(./assets/images/beach.jpg);
+}
 
-.footer-head {}
+/*sets second house of links below first and gives them their own height and width properties*/
+.showcase-two,
+.showcase-three,
+.showcase-four,
+.showcase-five {
+    height: 200px;
+    width: 40%;
+    margin: auto;
 
+
+}
+
+/*handles text inside main showcase link box*/
+.main-text {
+    width: 14%;
+    height: 50px;
+    background-color: aqua;
+}
+
+/*handles text inside other link boxes*/
+.showcase-text {
+    display: inline-block;
+    width: 15%;
+    height: 40%;
+    background-color: aqua;
+}
+
+/*gives all showcase links border and transitions properties for hover*/
+.main-showcase,
+.showcase-two,
+.showcase-three,
+.showcase-four,
+.showcase-five {
+    border: 5px solid aquamarine;
+    cursor: crosshair;
+    line-height: 25px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bolder;
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    color: rgb(0, 0, 0);
+}
+
+/*gives individual background image for this showcase*/
+.showcase-two {
+    background-image: url(./assets/images/led.jpg);
+}
+
+/*gives individual background image for this showcase*/
+.showcase-three {
+    background-image: url(./assets/images/calculator.jpg);
+}
+
+/*gives individual background image for this showcase*/
+.showcase-four {
+    background-image: url(./assets/images/puzzle.jpg);
+}
+
+/*gives individual background for this showcase*/
+.showcase-five {
+    background-image: url(./assets/images/nature.jpg);
+}
+
+/*gives hover of new background image for all showcases*/
+.main-showcase:hover,
+.showcase-two:hover,
+.showcase-three:hover,
+.showcase-four:hover,
+.showcase-five:hover {
+    background-image: url(./assets/images/banner-2.jpg);
+}
+
+/*container for all footer*/
 footer,
-.footer-container {
+.footer-container,
+.bottom-links {
     display: flex;
+    padding: 10px;
+    font-size: 35px;
+    justify-content: space-between;
+}
+
+/*handles bottom links specifically*/
+.bottom-links {
+    color: rgb(3, 3, 51);
+
+}
+
+/*creates hover for bottom links*/
+.bottom-links:hover {
+    color: rgb(138, 10, 197);
 }

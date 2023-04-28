@@ -8,66 +8,138 @@
   <title>Joshua Hebert Portfolio</title>
   <link rel="stylesheet" href="reset.css" media="screen" />
   <link rel="stylesheet" href="style.css" media="screen" />
+  <style>
+    .media {
+      padding: 20px;
+      color: white;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .media {
+        background: red;
+      }
+    }
+
+    @media only screen and (min-width: 600px) {
+      .media {
+        background: green;
+      }
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      .media {
+        background: blue;
+      }
+    }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      .media {
+        background: orange;
+      }
+    }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      .media {
+        background: pink;
+      }
+    }
+  </style>
 </head>
 
 <body>
   <header>
     <section class="header-container">
-      <h1 class="name">FuzzWD</h1>
+      <h1 class="name">Joshua Hebert</h1>
       <nav class="nav-links">
-        <a href="#about-me" onclick="scrollToSection(aboutme)">About Me</a>
-        <a href="#work" onclick="scrollToSection(work)">Work</a>
-        <a href="#contact" onclick="scrollToSection(contact)">Keep in Touch</a>
-        <a href="######">Resume</a>
+        <a class="top-links" href="#about-me" onclick="scrollToSection(aboutme)">About Me</a>
+        <a class="top-links" href="#work" onclick="scrollToSection(work)">Work</a>
+        <a class="top-links" href="#contact" onclick="scrollToSection(contact)">Keep in Touch</a>
+        <a class="top-links" href="https://t.co/QgTjyKn73u" alt="Clickable link to linked in proile">Resume</a>
         <img class="avatar" src="./assets/images/Gengar10.jpg" alt="Joshua Hebert">
       </nav>
     </section>
   </header>
-
   <section class="subtitle-container">
-    <p class="p1">From the Creative Mind of Joshua Hebert</p>
+    <p class="p1">From the Creative Mind of Fuzz</p>
   </section>
   <main>
-    <section class="aboutme">
-      <h1 class="about-head">About Me</h1>
+    <section class="about-me">
+      <h1 class="side-head">About Me</h1>
       <p class="p-about">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-        maxime minus, ipsum at eos quod sequi velit laborum accusantium,
-        dolorum expedita quasi, ea laudantium temporibus reprehenderit
-        mollitia libero soluta atque.
+        My name is Joshua Hebert aka Fuzz, I love to play video games and build gaming pc's
+        in my spare time. I have been a bartender and in the restaurant industry
+        for most of my life and enjoy a daiquiri or pina colada on any day.
+        </br>
+        </br>
+        My coding journey is just getting started but I am excited to learn and
+        use my skills in a new industry. I am working har to learn Html, CSS, and JavaScript
+        and plan to use these skills to build user friendly apps and sites for the future!
+        Cheers 🥂
     </section>
-    <section class="work">
-      <h1 class="work-head">Work</h1>
-      <div class="main-showcase">
-        <h1 class="ms-head">Project 1</h1>
-        <h3 class="ms-subhead">Best project</h3>
-      </div>
-      <div class="showcase-two">
-        <h1 class="s2-head">Project 2</h1>
-        <h3 class="s2-subhead">2nd Best Project</h3>
-      </div>
-      <div class="showcase-three">
-        <h1 class="s3-head">Project 3</h1>
-        <h3 class="s3-subhead">3rd Best Project</h3>
-      </div>
-      <div class="showcase-4">
-        <h1 class="s4-head">Project 4</h1>
-        <h3 class="s4-subhead">4th Best Project</h3>
-      </div>
-      <div class="showcase-5">
-        <h1 class="s5-head">Project 5</h1>
-        <h3 class="s5-subhead">5th Best Project</h3>
-      </div>
+    <section class="work-container">
+      <h1 class="side-head">Work</h1>
+      <a class="main-link" href="https://jheeebert.github.io/class-project-1/" target="_self"
+        alt="This is a Github link to a project">
+        <div class="main-showcase">
+          <div class="main-text">
+            <h1>Project 1</h1>
+            <h3>Best project</h3>
+          </div>
+        </div>
+      </a>
+    </section>
+    <section class="work-container-2">
+      <a class="s2-link" href="https://jheeebert.github.io/prework-study-guide/" target="_self"
+        alt="This is a Github link to a project">
+        <div class="showcase-two">
+          <div class="showcase-text">
+            <h1>Project 2</h1>
+            <h3>2nd Best Project</h3>
+          </div>
+        </div>
+      </a>
+      <a class="s3-link" href="##" target="_self" alt="This is a placeholder for a future Github Link">
+        <div class="showcase-three">
+          <div class="showcase-text">
+            <h1>Project 3</h1>
+            <h3>3rd Best Project</h3>
+          </div>
+        </div>
+      </a>
+      <a class="s4-link" href="##" target="_self" alt="This is a placeholder for a future Github Link">
+        <div class="showcase-four">
+          <div class="showcase-text">
+            <h1>Project 4</h1>
+            <h3>4th Best Project</h3>
+          </div>
+        </div>
+      </a>
+      <a class="s5-link" href="https://jheeebert.github.io/student-mini-project-1/" target="_self"
+        alt="This is a Github link to a project">
+        <div class="showcase-five">
+          <div class="showcase-text">
+            <h1>Project 5</h1>
+            <h3>5th Best Project</h3>
+          </div>
+        </div>
+      </a>
     </section>
     <footer>
-      <h1 class="footer-head">Keep in Touch</h1>
+      <h1 class="side-head">Keep in Touch</h1>
       <nav class="footer-container">
-        <a href="tel:+4072425569" alt="Clickable Link to Phone Number">407-242-5569</a>
-        <a href="mailto:jhebertcocktails@gmail.com" alt="Clickable Link to Email">Email Me</a>
-        <a href="https://github.com/JHeeebert" alt="Clickable Link to GitHub Profile">GitHub</a>
-        <a href="https://twitter.com/JHeeebert" alt="Clickable Link to Twitter">Twitter</a>
-        <a href="https://t.co/QgTjyKn73u" alt="Clickable Link to linkedin Profile">Linkedin</a>
-        <a href="https://t.co/QgTjyKn73u" alt="Clickable Link to Spotify Profile">Spotify</a>
+        <a class="bottom-links" href="tel:+4072425569" alt="Clickable Link to Phone Number">407-242-5569</a>
+        <a class="bottom-links" href="mailto:jhebertcocktails@gmail.com?subject = Feeback&body = Message"
+          alt="Clickable Link to Email jhebertcocktails@gmail.com">Email Me</a>
+        <a class="bottom-links" href="https://github.com/JHeeebert"
+          alt="Clickable Link to https://github.com/JHeeebert ">GitHub</a>
+        <a class="bottom-links" href="https://twitter.com/JHeeebert"
+          alt="Clickable Link to https://twitter.com/JHeeebert">Twitter</a>
+        <a class="bottom-links" href="https://t.co/QgTjyKn73u"
+          alt="Clickable Link to linkedin Profile https://t.co/QgTjyKn73u">Linkedin</a>
+        <a class="bottom-links" href="https://t.co/QgTjyKn73u" alt="Clickable Link to Spotify Profile">Spotify</a>
       </nav>
     </footer>
   </main>
