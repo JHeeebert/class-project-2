@@ -14,27 +14,20 @@
 
 
 # Issues Faced During Project
-1. Alignment on headers proved tricky and the second box and all- 
-    content in general is not spaced correctly and I will look to fix- 
-    as I get progress more in the bootcamp.
-2. Refactoring code was a fun but daunting process, I spent alot -
-    of hours reading the same things over and over trying to figure out-
-    issues that I created but found the challenge fun and informative.
-3. Deployment was a challenege because of the way I named the folders- 
-    originally (using capital letters) I found out changing folder names-
-    on GitHub can be tricky so I troubleshooted by making links in HTML- 
-    match folder names with capitalization.
+1. The box links in the middle of the page were the toughest part of this challenge for me with some help in office hours I was able to figure it out!
+2. I had a ton of fun with this one and tried to make it as personalized as possible knowing I can use this to try to get jobs after the bootcamp and continue to add to it as I progress in my career.
+3. Deployment this time worked fine and I feel more confident this time around with all the skills we used!
 
 # Screenshot
-<img src= "Assets\images\screenshot-project-1.jpg" 
+<img src= "assets\images\class-project-two-ss.jpg" 
     alt= "this should be a screenshot"/>
 
 
 # Link to Repo
-[https://github.com/JHeeebert/class-project-1]
+[https://github.com/JHeeebert/class-project-2]
 
 # Link to Deployed Site
-[https://jheeebert.github.io/class-project-1/]
+[https://jheeebert.github.io/class-project-2/]
 
 # Contributors
 Joshua Hebert
