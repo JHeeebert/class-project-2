@@ -15,7 +15,9 @@
 
 # Issues Faced During Project
 1. The box links in the middle of the page were the toughest part of this challenge for me with some help in office hours I was able to figure it out!
+
 2. I had a ton of fun with this one and tried to make it as personalized as possible knowing I can use this to try to get jobs after the bootcamp and continue to add to it as I progress in my career.
+
 3. Deployment this time worked fine and I feel more confident this time around with all the skills we used!
 
 # Screenshot
