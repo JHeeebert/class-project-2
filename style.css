@@ -108,7 +108,7 @@ main {
     height: 500px;
     width: 40%;
     margin: auto;
-    background-image: url(./assets/images/beach.jpg);
+    background-image: url(./assets/images/marvel.jpg);
 }
 
 /*sets second house of links below first and gives them their own height and width properties*/
@@ -158,12 +158,12 @@ main {
 
 /*gives individual background image for this showcase*/
 .showcase-two {
-    background-image: url(./assets/images/led.jpg);
+    background-image: url(./assets/images/weather.jpg);
 }
 
 /*gives individual background image for this showcase*/
 .showcase-three {
-    background-image: url(./assets/images/calculator.jpg);
+    background-image: url(./assets/images/beach.jpg);
 }
 
 /*gives individual background image for this showcase*/
