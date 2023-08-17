@@ -1,5 +1,5 @@
 # class-project-2 Portfolio
-    As a class we were tasked with building a portfolio site from scrathc with no starter code! 
+    As a class we were tasked with building a portfolio site from scratch with no starter code! 
 
 # Description
 1. We took an image that showed a demo of a portfolio site and re created 
