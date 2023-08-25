@@ -214,3 +214,11 @@ footer,
         flex-direction: column;
     }
 }
+@media (max-width: 380px) {
+    /* Mobile mode */
+    #searchResults {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 20px;
+      padding-right: 0;
+    }
+  }
