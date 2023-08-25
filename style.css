@@ -205,3 +205,12 @@ footer,
 .bottom-links:hover {
     color: rgb(138, 10, 197);
 }
+
+/* Setting to change direction for smaller devices */
+@media screen and (max-width: 1120px) {
+
+    header,
+    section {
+        flex-direction: column;
+    }
+}
